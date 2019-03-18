@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.epam.jdi</groupId>
-    <artifactId>jdi-simple-examples</artifactId>
+    <artifactId>jdi-introduction</artifactId>
     <version>1.0</version>
     <name>Test Automation project template</name>
 

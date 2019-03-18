@@ -11,7 +11,7 @@ import static org.mytests.uiobjects.example.site.pages.HomePage.userIcon;
 public class SimpleJdiExample extends SimpleTestsInit {
 
     @Test
-    public void fillContactFormTest() {
+    public void loginTest() {
         homePage.open();
         userIcon.click();
         loginForm.loginAs(DEFAULT_USER);

@@ -14,5 +14,4 @@ import org.openqa.selenium.WebElement;
 public class HomePage extends WebPage {
     @Css("form") public static LoginForm loginForm;
     @Css("img#user-icon") public static Icon userIcon;
-
 }
