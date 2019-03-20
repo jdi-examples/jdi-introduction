@@ -6,5 +6,4 @@ import org.mytests.uiobjects.example.site.pages.HomePage;
 @JSite("https://epam.github.io/JDI/")
 public class JdiTestSite {
     public static HomePage homePage;
-
 }

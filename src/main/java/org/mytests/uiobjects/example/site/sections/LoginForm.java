@@ -10,6 +10,5 @@ import org.openqa.selenium.WebElement;
 public class LoginForm extends Form<User> {
     @Css("#name") TextField userName;
     @Css("#password")  TextField password;
-
     @Css("[type=submit]") Button enter;
 }
