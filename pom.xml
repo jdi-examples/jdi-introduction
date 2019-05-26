@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.1</aspectj.version>
         <driver>chrome</driver>
-        <domain>https://epam.github.io/JDI/</domain>
+        <domain>https://jdi-testing.github.io/jdi-light/</domain>
     </properties>
 
     <dependencies>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.epam.jdi</groupId>
             <artifactId>jdi-light-html</artifactId>
-            <version>1.0.46</version>
+            <version>1.0.63</version>
         </dependency>
 		
         <!--Allure-->
