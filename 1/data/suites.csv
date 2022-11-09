@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Nov 09 15:45:28 GMT 2022","Wed Nov 09 15:45:28 GMT 2022","3","Test suite","Tests","org.mytests.tests.example.SimpleJdiExample","org.mytests.tests.example.SimpleJdiExample","setUp","setUp",""
-"skipped","Wed Nov 09 15:45:28 GMT 2022","Wed Nov 09 15:45:28 GMT 2022","2","Test suite","Tests","org.mytests.tests.example.SimpleJdiExample","org.mytests.tests.example.SimpleJdiExample","loginTest","loginTest",""
-"skipped","Wed Nov 09 15:45:28 GMT 2022","Wed Nov 09 15:45:28 GMT 2022","0","Test suite","Tests","org.mytests.tests.example.SimpleJdiExample","org.mytests.tests.example.SimpleJdiExample","nonPageObjectTest","nonPageObjectTest",""
+"skipped","Wed Nov 09 15:46:41 GMT 2022","Wed Nov 09 15:46:41 GMT 2022","1","Test suite","Tests","org.mytests.tests.example.SimpleJdiExample","org.mytests.tests.example.SimpleJdiExample","loginTest","loginTest",""
+"broken","Wed Nov 09 15:46:41 GMT 2022","Wed Nov 09 15:46:41 GMT 2022","2","Test suite","Tests","org.mytests.tests.example.SimpleJdiExample","org.mytests.tests.example.SimpleJdiExample","setUp","setUp",""
+"skipped","Wed Nov 09 15:46:41 GMT 2022","Wed Nov 09 15:46:41 GMT 2022","0","Test suite","Tests","org.mytests.tests.example.SimpleJdiExample","org.mytests.tests.example.SimpleJdiExample","nonPageObjectTest","nonPageObjectTest",""
