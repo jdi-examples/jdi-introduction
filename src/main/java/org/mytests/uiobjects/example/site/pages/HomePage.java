@@ -16,5 +16,4 @@ public class HomePage extends WebPage {
     @Css("form") public static LoginForm loginForm;
     @Css("img#user-icon") public static Icon userIcon;
     @Css(".fa-sign-out") public static WebElement logout;
-    public static Button userName;
 }
