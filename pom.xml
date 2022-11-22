@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <aspectj.version>1.9.6</aspectj.version>
+        <aspectj.version>1.9.7</aspectj.version>
 <!--        <jdi.light.html.version>1.4.6</jdi.light.html.version>-->
         <log4j2.version>2.17.1</log4j2.version>
         <driver>chrome</driver>
@@ -54,7 +54,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.19.0</version>
+            <version>2.17.2</version>
         </dependency>
     </dependencies>
 
@@ -67,7 +67,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M7</version>
+                <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/general.xml</suiteXmlFile>
@@ -96,7 +96,7 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.11.2</version>
+                <version>2.10.0</version>
             </plugin>
             <!-- Java version 8 -->
             <plugin>
@@ -125,13 +125,10 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>LATEST</version>
+                <version>2.10.0</version>
                 <configuration>
                     <properties>
                         <allure.results.directory>target/allure-results</allure.results.directory>
-                    </properties>
-                    <properties>
-                        <allure.link.issue.pattern>https://example.org/issue/{}</allure.link.issue.pattern>
                     </properties>
                 </configuration>
             </plugin>
