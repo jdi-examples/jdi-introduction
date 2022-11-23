@@ -2,17 +2,27 @@ package org.mytests.tests.example;
 
 import com.epam.jdi.light.elements.composite.WebPage;
 import org.mytests.tests.SimpleTestsInit;
+import org.mytests.uiobjects.example.site.JdiTestSite;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-import static com.epam.jdi.light.ui.html.HtmlFactory.$;
+import static com.epam.jdi.light.elements.composite.WebPage.openSite;
+//import static com.epam.jdi.light.elements.init.PageFactory.initElements;
+import static com.epam.jdi.light.elements.init.UIFactory.$;
 import static org.mytests.uiobjects.example.TestData.DEFAULT_USER;
 import static org.mytests.uiobjects.example.site.JdiTestSite.homePage;
 import static org.mytests.uiobjects.example.site.pages.HomePage.loginForm;
 import static org.mytests.uiobjects.example.site.pages.HomePage.userIcon;
 
 public class SimpleJdiExample implements SimpleTestsInit {
+
+    @BeforeSuite(alwaysRun = true)
+    public void setUp() {
+
+        openSite(JdiTestSite.class);
+    }
     @AfterMethod
     public void after() {
         homePage.logout.click();
